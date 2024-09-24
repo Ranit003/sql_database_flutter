@@ -104,7 +104,7 @@ class _MyAppState extends State<MyApp> {
                 margin: EdgeInsets.all(10),
                 child: Builder(builder: (context){
                   return ElevatedButton(onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>view_data()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>ViewData()));
                     },
                       child: Text("ViewData"));
     },
